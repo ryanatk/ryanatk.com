@@ -1,6 +1,5 @@
 (function (doc) {
   function newWin(a) {
-    console.log(a, a.tagName);
     if (a.tagName === 'A') {
       a.target = '_blank';
     }
